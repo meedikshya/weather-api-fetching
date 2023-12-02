@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Head  {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-top: -400px;
+}
+
+.weatherBg{
+  position: absolute;
+  height: 38%;
+  width: 69.8%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputField {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 450px;
+  height: 30px;
+  width: 400px;
+  border-style: none;
+}
+
+input[type=text]{
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 8px;
+  outline: none;
+  }
+
+  .button{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 450px;
+    padding: 6px 14px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    background: linear-gradient(180deg, #437dd4 0%, #2655ac 100%);
+  }
+  
+  .card{
+    background-color: rgb(243, 253, 250);
+    position: absolute;
+    height: 250px;
+    width: 300px;
+    margin-top: 350px;
+    margin-left: 580px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  font-size: 30px;
+  color: black;
+  
+  }
+
+
+  .icon {
+    margin-top: 20px;
+  }
+
+  .component{
+    margin-top: 30px;
+  }
+
+  .error{
+    margin-top: 40px;
+    font-size: 20px;
+    color: red;
+
+  }
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
