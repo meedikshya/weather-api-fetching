@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/weather-api-feching/static/css/main.e8ed94fe.css",
+    "main.js": "/weather-api-feching/static/js/main.2e347cf4.js",
+    "static/media/skyimg.webp": "/weather-api-feching/static/media/skyimg.44af10b8e8ce6195f821.webp",
+    "static/media/icon.jpg": "/weather-api-feching/static/media/icon.5a4db5802cd0212a5057.jpg",
+    "index.html": "/weather-api-feching/index.html",
+    "main.e8ed94fe.css.map": "/weather-api-feching/static/css/main.e8ed94fe.css.map",
+    "main.2e347cf4.js.map": "/weather-api-feching/static/js/main.2e347cf4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8ed94fe.css",
+    "static/js/main.2e347cf4.js"
+  ]
+}
